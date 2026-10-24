@@ -1,0 +1,6 @@
+interface:
+    display_name: "Preserve Context"
+    short_description: "Durable knowledge and checkpoints across compaction"
+    default_prompt: "Use $preserve-context to save the current task's knowledge and checkpoint, or recover its work after compaction."
+policy:
+    allow_implicit_invocation: true
